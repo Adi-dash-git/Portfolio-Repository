@@ -1,0 +1,33 @@
+body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #343a40;
+    } 
+
+.her {
+  background: #343a40;
+  color: white;
+  padding: 400px 200px;
+  text-align: center;
+} 
+
+.hero {
+  background: #343a40;
+  color: white; 
+  color: rgb(230, 40, 179);
+  padding: 100px 50px;
+  text-align: left;
+}
+
+footer {
+  background: #212529;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+#pre {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+   
