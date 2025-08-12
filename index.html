@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    
     <link rel="stylesheet" href="style.css">
 
     <!-- Bootstrap CDN link-->
@@ -34,7 +34,7 @@
     </div>
   </nav>
 
-
+  <!--view Section-->
    <section >
         <fieldset class="her">
             <div >
@@ -44,7 +44,7 @@
         </fieldset>
     </section>
 
-
+    <!--hero  Section-->
     <section id="home">
         <div>
             <div class="hello">
@@ -79,24 +79,80 @@
     <!-- About Section -->
 
     <section class="her" id="about"> 
-      <div id="aboutme">
+      <div  id="aboutme" class="container-fluid">
+          <div >
               <h1 id="port"> About Me</h1>
               <p> <h5>Crafting stunning, responsive, and high-performance website that blend design & functionality. I build fast, user-friendly, and seo-optimized web experiences to help businesses grow. Let's turn your vision into a beautiful, interactive, and powerful websiite that stands out online!.</h5>  </p>
-              <button class="buton rounded">Download CV</button>  
+              <button class="buton rounded ">Download CV</button>  
               <button class="buton2 rounded">View Project</button>
+          </div>
       </div>
     </section>    
 
     <!-- portfolio Showcase Section-->
 
     <div class="her" id="portfolio">
+      <div class="container-fluid">
         <h1 id="port"> Portfolio Showcase</h1>
         <p> <h5>Explore My journey through projects, Certificates And Technical Explore Each Search Represents a milstone inMy Continuous Learning Path.</h5> </p>
-        <button class="buton2 btn-sm rounded-pill"> projects </button>
+
+        <button class="buton2 rounded-pill" id="bg" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">Projects</button>
+
         <button class="buton rounded-pill"> certificates </button>
         <button class="buton3 rounded-pill"> My Skill </button>
+      </div> 
     </div>
-     
+
+      <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasTopLabel">My Projects</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          ...
+          <h2>Project 1</h2>
+          <p>A responsive e-commerce website built with React and Css.</p>
+          <h3>Project 2</h3>
+          <p>A dynamic portfolio website with smooth animations and custom layouts.</p>
+          <h3>Project 3</h3>
+          <p> Event Management System </p>
+        </div>
+      </div>
+
+    <!--Projecct Section-->
+
+      <section id="projects" class="projects">
+        <div class="container">
+         <h2 style="text-align: center;"> My Projects</h2> <br> 
+          <div class="project-cards">
+              <div class="card">
+                  <h3>Project 1</h3>
+                  <p>A responsive e-commerce website built with React and Css.</p>
+              </div>
+              <div class="card">
+                  <h3>Project 2</h3>
+                  <p>A dynamic portfolio website with smooth animations and custom layouts.</p>
+              </div>
+              <div class="card">
+                  <h3>Project 3</h3>
+                  <p> Event Management System </p>
+              </div>
+          </div>
+        </div>
+      </section>
+
+    <!--Contact section class="her"-->
+
+    <section>
+      <div class="her" id="contact">
+          <div class="container text-center">
+              <h2 style="text-align: center;"> Contact Me </h2>
+              <p>If you'd like to work together or just say hello, feel free to reach out!</p><br>
+              <a href="mailto:adityadash7000@gmail.com" id="embtn">Email me</a>
+          </div>
+      </div>
+    </section>
+
     <!-- Footer -->
 
     <footer>
@@ -105,7 +161,7 @@
             <p>Let's work together</p>
             <button class="buton rounded-top">Book A call</button>
      
-            <pre id="pre">@ 2025 Aditya Dash  |  All rights reserved. </pre>
+            <pre id="pre"> &copy; 2025 Aditya Dash  |  All rights reserved. </pre>
         </div>
     </footer>
 
