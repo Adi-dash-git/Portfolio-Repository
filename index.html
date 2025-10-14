@@ -1,209 +1,329 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Bootstrap CDN link-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    
+  <link rel="stylesheet" href="style.css">
 
-    <title>My Portfolio web</title>
+  <!-- Bootstrap CDN link-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+  <title>My Portfolio web</title>
 </head>
+
 <body>
 
-  <!-- Navbar -->
- 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-    <div class="container">
-      <a class="navbar-brand" href="#">MyPortfolio</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>  
-          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-          <li class="nav-item"><a class="nav-link" href="#portfolio">portfolio</a></li>
-          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-        </ul>
+  <!-- Header -->
+  <section id="header">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <h1><span>A</span>ditya <span>D</span>ash</h1>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#portfolio">portfolio</a></li>
+            <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </section>
+  <!-- End Header -->
+
+  <!--hero  Section-->
+  <section id="home" class="hero">
+    <div>
+      <p>
+      <h1> Welcome To My</h1>
+      </p>
+      <br>
+      <div class="bouncing-letters" style="text-align: center; ">
+        <span>P</span>
+        <span>O</span>
+        <span>R</span>
+        <span>T</span>
+        <span>F</span>
+        <span>O</span>
+        <span>L</span>
+        <span>I</span>
+        <span>O</span>
+        <span> </span>
+        <span>W</span>
+        <span>E</span>
+        <span>B</span>
+        <span>S</span>
+        <span>I</span>
+        <span>T</span>
+        <span>E</span>
+      </div>
+      <br>
+      <div>
+        <h1 id="port"> Hi, I'm Aditya 👋</h1>
       </div>
     </div>
-  </nav>
+  </section>
 
-   <!--home  Section-->
-  
-   <section id="home">
-        <fieldset class="hero">
-            <div >
-                <p> <h1> Welcome To  </h1> </p>
-                <p> <h1 id="port"> ADITYA DASH'S </h1> </p> 
-                <div class="bouncing-letters" style="text-align: center; font-size: 30px;">
-                  <span>P</span>
-                  <span>O</span>
-                  <span>R</span>
-                  <span>T</span>
-                  <span>F</span>
-                  <span>O</span>
-                  <span>L</span>
-                  <span>I</span>
-                  <span>O</span>
-                  <span> </span>
-                  <span>W</span>
-                  <span>E</span>
-                  <span>B</span>
-                  <span>S</span>
-                  <span>I</span>
-                  <span>T</span>
-                  <span>E</span>
-                </div>
-            </div>
-        </fieldset>
-    </section>
-
-    <!--hero  Section-->
-    
-    <section >
-        <div>
-            <div class="hello">
-                <p>  <h3> Hello it's me </h3></p>
-                <p> <h1 id="port">Happy Dude</h1></p>
-
-                <div class="text-rotation">
-                  <h1>
-                    I'M A 
-                    <span>
-                      <span>CODER</span>
-                      <span>DEVELOPER</span>
-                      <span>PROGRAMMER</span>
-                      <span>DESIGNER</span>
-                      <span>DEVELOPER</span>
-                    </span>
-                  </h1>
-                </div>
-
-                <p> <h4> Aditya Dash </h4> </p>
-                <p> <h5>I build stunning websites that rank higher and perform better.</h5>  </p>
-                <p><h4>Let's create something amazing together!</h4></p>
-
-                  <div class="tag-list">
-                    <div class="inner">
-                        <div class="tag"><span>#</span>HTML</div>
-                        <div class="tag"><span>#</span>CSS</div>
-                        <div class="tag"><span>#</span>BOOTSTRAP</div>
-                        <div class="tag"><span>#</span>TAILWIND</div>
-                        <div class="tag"><span>#</span>JS</div>
-                        <div class="tag"><span>#</span>REACT</div>
-                        <div class="tag"><span>#</span>PYTHON</div>
-                        <div class="tag"><span>#</span>JAVA</div>
-                        <div class="tag"><span>#</span>SQL</div>
-                        <div class="tag"><span>#</span>HTML</div>
-                        <div class="tag"><span>#</span>CSS</div>
-                    </div>
-                    <div class="fade"></div>
-                  </div>                
-
-                <button id="pre" class="buton rounded-pill">Call Me</button> <br>  
-            </div>
-        </div>
-    </section> 
-
-    <!-- About Section -->
-
-    <section class="hero" id="about"> 
-      <div  id="aboutme" class="container-fluid">
-          <div >
-              <h1 id="port"> About Me</h1>
-              <p> <h5>Crafting stunning, responsive, and high-performance website that blend design & functionality. I build fast, user-friendly, and seo-optimized web experiences to help businesses grow. Let's turn your vision into a beautiful, interactive, and powerful websiite that stands out online!.</h5>  </p>
-              <button class="buton rounded ">Download CV</button>  
-              <button class="buton2 rounded">View Project</button>
-          </div>
+  <!--hero  Section second Page -->
+  <section class="pscs">
+    <div>
+      <p>
+      <h3>👋 it's me </h3>
+      </p>
+      <p>
+      <h1 id="port"> Aditya Dash</h1>
+      </p>
+      <div class="text-rotation">
+        <h1>
+          I'M A
+          <span>
+            <span>CODER</span>
+            <span>DEVELOPER</span>
+            <span>PROGRAMMER</span>
+            <span>DESIGNER</span>
+            <span>DEVELOPER</span>
+          </span>
+        </h1>
       </div>
-    </section>    
+      <p>I specialize in building modern, responsive websites that blend performance and visual appeal. Let's create
+        something exceptional together.</p>
 
-    <!-- portfolio Showcase Section-->
+      <div class="tag-list">
+        <div class="inner">
+          <div class="tag"><span>#</span>HTML</div>
+          <div class="tag"><span>#</span>CSS</div>
+          <div class="tag"><span>#</span>BOOTSTRAP</div>
+          <div class="tag"><span>#</span>TAILWIND</div>
+          <div class="tag"><span>#</span>JS</div>
+          <div class="tag"><span>#</span>REACT.JS</div>
+          <div class="tag"><span>#</span>PYTHON</div>
+          <div class="tag"><span>#</span>JAVA</div>
+          <div class="tag"><span>#</span>SQL</div>
 
-    <div class="hero" id="portfolio">
+          <div class="tag"><span>#</span>HTML</div>
+          <div class="tag"><span>#</span>CSS</div>
+          <div class="tag"><span>#</span>BOOTSTRAP</div>
+          <div class="tag"><span>#</span>TAILWIND</div>
+          <div class="tag"><span>#</span>JS</div>
+          <div class="tag"><span>#</span>REACT.JS</div>
+          <div class="tag"><span>#</span>PYTHON</div>
+          <div class="tag"><span>#</span>JAVA</div>
+          <div class="tag"><span>#</span>SQL</div>
+
+          <div class="tag"><span>#</span>HTML</div>
+          <div class="tag"><span>#</span>CSS</div>
+          <div class="tag"><span>#</span>BOOTSTRAP</div>
+          <div class="tag"><span>#</span>TAILWIND</div>
+          <div class="tag"><span>#</span>JS</div>
+          <div class="tag"><span>#</span>REACT.JS</div>
+          <div class="tag"><span>#</span>PYTHON</div>
+          <div class="tag"><span>#</span>JAVA</div>
+          <div class="tag"><span>#</span>SQL</div>
+        </div class="fade">
+      </div>
+    </div>
+    <a href="mailto:adityadash7000@gmail.com">
+      <button class="buton rounded-pill">Call Me</button> <br>
+    </a>
+    </div>
+  </section>
+  <!--  Hero Section End -->
+
+
+  <!-- portfolio Showcase Section-->
+  <section class="pscs1" id="portfolio">
+    <div>
       <div class="container-fluid">
-        <h1 id="port"> Portfolio Showcase</h1>
-        <p> <h5>Explore My journey through projects, Certificates And Technical Explore Each Search Represents a milstone inMy Continuous Learning Path.</h5> </p>
+        <h1 style="text-align: center;color: black; font-weight: bolder;"> Portfolio Showcase</h1>
+        <p>
+        <h5>Explore My journey through projects, Certificates And Technical Explore Each Search
+          Represents a milstone inMy
+          Continuous Learning Path.</h5>
+        </p>
 
-        <button class="buton2 rounded-pill" id="bg" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">Projects</button>
+        <button class="buton2 rounded-pill" id="bg" type="button" data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">Projects</button>
 
         <button class="buton rounded-pill"> certificates </button>
-        <button class="buton3 rounded-pill"> My Skill </button>
-      </div> 
+        <button class="buton rounded-pill"> My Skill </button>
+      </div>
     </div>
+  </section>
 
-      <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
-        <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasTopLabel">My Projects</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-        </div>
-        <div class="offcanvas-body">
-          <h3>Project 1</h3>
-          <p>A responsive e-commerce website built with React and Css.</p>
-          <h3>Project 2</h3>
-          <p>A dynamic portfolio website with smooth animations and custom layouts.</p>
-          <h3>Project 3</h3>
-          <p> Event Management System </p>
-          ...
-        </div>
+  <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasTopLabel">My Projects</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <h3>Project 1</h3>
+      <p>Developed an interactive TaskBuddy app using HTML, CSS and JavaScript and React.js.
+        Manage daily tasks with features like prioritision, custom categories, and progress tracking.</p>
+      <h3>Project 2</h3>
+      <p>A dynamic portfolio website with smooth animations and custom layouts.</p>
+      <h3>Project 3</h3>
+      <p> Developed a web-based MCQ quiz platform for students using HTML, CSS, JavaScript and JAVAand SQL server.
+        Implemented automatic result calculation and secure one-time test attempt logic.Reduced quiz
+        evaluation time by over 90% compared to manual methods. This was my college project. </p>
+      ...
+    </div>
+  </div>
+  <!-- portfolio Showcase Section End -->
+
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="projects container-abt">
+      <div class="projects-header">
+        <h1 class="section-title">Recent <span>Projects</span></h1>
       </div>
-
-    <!-- Projecct Section -->
-
-      <section id="projects" class="projects">
-        <div class="container">
-         <h2 style="text-align: center; "> My Projects</h2> <br> 
-          <div class="project-cards">
-              <div class="card">
-                  <h3>Project 1</h3>
-                  <p>A responsive e-commerce website built with React and Css.</p>
-              </div>
-              <div class="card">
-                  <h3>Project 2</h3>
-                  <p>A dynamic portfolio website with smooth animations and custom layouts.</p>
-              </div>
-              <div class="card">
-                  <h3>Project 3</h3>
-                  <p> Event Management System </p>
-              </div>
+      <div class="all-projects">
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 1</h1>
+            <br>
+            <h2>TaskBudy &hearts;</h2>
+            <p> Developed an interactive to-do list app with TaskBuddy using HTML, CSS and JavaScript and React.js.
+              Manage daily tasks with features like prioritision, custom categories, and progress tracking
+            </p>
+          </div>
+          <div class="project-img">
+            <img src="project.jpg" alt="img">
           </div>
         </div>
-      </section>
-
-    <!-- Contact section -->
-
-    <section>
-      <div class="contact" id="contact">
-        <div class="box">
-          <div class=" text-center">
-              <h1 style="text-align: center; font-weight: bolder;"> Contact Me </h1>
-              <p> <h4> If you'd like to work together or just say hello, feel free to reach out! </h4> </p><br>
-              <a href="mailto:adityadash7000@gmail.com" id="embtn">Email me</a>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 2</h1>
+            <br>
+            <h2>Interactive Portfolio Website &hearts;</h2>
+            <p>A sleek, animated portfolio site designed using HTML, CSS, Bootstrap and JavaScript. Showcases my skills,
+              experience, and contact info with smooth scrolling and dynamic content..
+            </p>
+          </div>
+          <div class="project-img">
+            <img src="project.jpg" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 3</h1>
+            <br>
+            <h2>Calculator &hearts;</h2>
+            <p>This is a basic calculator with buttons for +, -, *,/ to perform mathematical calculations.
+            </p>
+          </div>
+          <div class="project-img">
+            <img src="project.jpg" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 4</h1>
+            <br>
+            <h2>Quiz Evaluation System &hearts;</h2>
+            <p>Developed a web-based MCQ quiz platform for students using HTML, CSS, JavaScript and JAVAand SQL server.
+              Implemented automatic result calculation and secure one-time test attempt logic.Reduced quiz
+              evaluation time by over 90% compared to manual methods. This was my college project.
+            </p>
+          </div>
+          <div class="project-img">
+            <img src="project.jpg" alt="img">
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
+  <!-- End Projects Section -->
 
-    <!-- Footer -->
 
-    <footer>
-        <div>
-            <h4 id="port"> Have projects in mind?</h4>
-            <p>Let's work together</p>
-            <button class="buton rounded-top">Book A call</button>
-     
-            <pre id="pre"> &copy; 2025 Aditya Dash  |  All rights reserved. </pre>
+  <!-- About Section -->
+  <section id="about">
+    <div class="about container-abt">
+      <div class="col-left">
+        <div class="about-img">
+          <img src="aditya.jpg" alt="img">
         </div>
-    </footer>
+      </div>
+      <div class="col-right">
+        <h1 class="section-title">About <span>me</span></h1>
+        <h2>Software Developer</h2>
+        <p>Hey there! 👋 I’m Aditya Dash, a Full Stack Developer who enjoys building clean, efficient, and impactful web
+          applications. I love working across the entire stack — crafting engaging interfaces with React.JS and handling
+          backend logic with Python, Java, and SQL.
+        </p>
+        <p>I’ve built several real-world projects, TaskBuddy and a quiz evaluation app, where I focused on performance,
+          scalability, and great user experience.
+          Crafting stunning, responsive, and high-performance website that blend design & functionality. I build
+          fast,user-friendly, and seo-optimized web experiences to help businesses grow. Let's turn your vision into a
+          beautiful, interactive, and powerful websiite that stands out online!.</p>
+        <a href="Destination.pdf" class="cta">View Resume</a>
+      </div>
+    </div>
+  </section>
+  <!-- End About Section -->
+
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="contact container-ct">
+      <div>
+        <h1 class="section-title">Contact <span>info</span></h1>
+      </div>
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png" /></div>
+          <div class="contact-info">
+            <h1>Phone</h1>
+            <h2>+91 78******89</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png" /></div>
+          <div class="contact-info">
+            <h1>Email</h1>
+            <h2><a href="mailto:adityadash7000@gmail.com"> <button class="btn btn-outline-primary"> Click to
+                  Email</button> </a> </h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" /></div>
+          <div class="contact-info">
+            <h1>Address</h1>
+            <h2>Bangalore, India</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Contact Section -->
+
+
+  <!-- Footer -->
+  <footer>
+    <div>
+      <h4 id="port"> Have projects in mind?</h4>
+      <p>Let's work together</p>
+
+      <a href="mailto:adityadash7000@gmail.com"><button class="buton rounded-top">Book A call</button></a>
+      <br>
+      <p>Crafted with ❤️ </p>
+      <pre> &copy; 2025 Aditya Dash | All rights reserved. </pre>
+    </div>
+  </footer>
+  <!-- End Footer -->
 
 </body>
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
+
 </html>
