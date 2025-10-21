@@ -693,9 +693,9 @@ footer {
 
   .bouncing-letters span {
     font-size: 20px;
-  }
+  } 
 
-  .hello {
+   .hello {
     padding: 100px 50px;
     text-align: center;
     display: -ms-inline-flexbox;
