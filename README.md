@@ -1,7 +1,7 @@
 # 🌐 Personal Portfolio Website
 
-Welcome to my *Personal Portfolio Website* — a fully responsive and interactive web application built using *HTML, **CSS, and **Bootstrap*.  
-This project showcases my skills, projects, and experience as a *Full Stack Developer*, designed to give visitors a smooth and professional browsing experience.
+Welcome to my **Personal Portfolio Website** — a fully responsive and interactive web application built using **HTML**, **CSS**,**JavaScript** and **Bootstrap**.  
+This project showcases my skills, projects, and experience as a **Full Stack Developer**, designed to give visitors a smooth and professional browsing experience.
 
 ---
 
@@ -29,7 +29,7 @@ It’s built with clean code, responsive design, and smooth navigation to highli
 
 | Category | Technologies |
 |-----------|--------------|
-| *Frontend* | HTML5, CSS3, Bootstrap 5 |
+| *Frontend* | HTML5, CSS3, Bootstrap 5, JavaScript (ES6) |
 | *Version Control* | Git, GitHub |
 | *Code Editor* | Visual Studio Code |
 | *Deployment* | GitHub Pages |
