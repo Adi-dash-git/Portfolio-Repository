@@ -298,31 +298,6 @@ h1>span>span {
   color: black;
 }
 
-.buton2 {
-  background: linear-Gradient(60deg, #00ffff, rgb(75, 110, 206));
-  border: 2px solid black;
-  width: 150px;
-  height: 40px;
-  color: wheat;
-  font-weight: bold;
-}
-
-.buton3 {
-  background: linear-Gradient(60deg, #f207b7, rgb(232, 195, 92), #77e842);
-  border: 2px solid black;
-  width: 150px;
-  height: 40px;
-  color: black;
-}
-
-.buton4 {
-  background: lightblue;
-  border: 2px solid black;
-  width: 150px;
-  height: 40px;
-  color: black;
-}
-
 
 /* portfolio Showcase Section */
 .pscs1 {
