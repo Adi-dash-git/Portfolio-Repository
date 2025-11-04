@@ -153,14 +153,18 @@
         <button class="buton rounded-pill" id="bg" type="button" data-bs-toggle="offcanvas"
           data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">Projects</button>
 
-        <button class="buton rounded-pill"> Certificates </button>
-        <button class="buton rounded-pill"> My Skill </button>
+        <button class="buton rounded-pill" id="bg" type="button" data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasEndCertificates" aria-controls="offcanvasEndCertificates">My Certificates</button>
+
+        <button class="buton rounded-pill" id="bg" type="button" data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasEnd" aria-controls="offcanvasEnd">My Skill</button>
+
       </div>
     </div>
   </section>
 
   <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
-    <div class="offcanvas-header" style="background-color: cyan;">
+    <div class="offcanvas-header" style="background-color: wheat;">
       <h5 class="offcanvas-title bolder" id="offcanvasTopLabel">My Projects</h5>
       <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
     </div>
@@ -174,6 +178,30 @@
       <p> Developed a web-based MCQ quiz platform for students using HTML, CSS, JavaScript and JAVAand SQL server.
         Implemented automatic result calculation and secure one-time test attempt logic.Reduced quiz
         evaluation time by over 90% compared to manual methods. This was my academic project. </p>
+      ...
+    </div>
+  </div>
+
+  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasEndCertificates"
+    aria-labelledby="offcanvasEndLabelCertificates">
+    <div class="offcanvas-header" style="background-color: wheat;">
+      <h5 class="offcanvas-title bolder" id="offcanvasEndLabelCertificates">My Certificates</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <p>My Certificates</p>
+      ...
+    </div>
+  </div>
+
+
+  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasEnd" aria-labelledby="offcanvasEndLabel">
+    <div class="offcanvas-header" style="background-color: cyan;">
+      <h5 class="offcanvas-title bolder" id="offcanvasEndLabel">My Skills</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+
       ...
     </div>
   </div>
@@ -191,9 +219,9 @@
           <div class="project-info">
             <h1>Project 1</h1>
             <br>
-            <h2>TaskBudy &hearts;</h2>
-            <p> Developed an interactive to-do list app with TaskBuddy using HTML, CSS and JavaScript and React.js.
-              Manage daily tasks with features like prioritision, custom categories, and progress tracking
+            <h2>The Daily Ducket &hearts;</h2>
+            <p>A clean, Task management application designed for daily prioritization. Features include a MIT (Most Important Task) slot, simple categorization, and a progress archive. Developed using HTML, CSS and JavaScript and React.js.
+              Manage daily tasks with features like prioritision, custom categories, and progress tracking.
             </p>
           </div>
           <div class="project-img">
@@ -322,7 +350,7 @@
   </footer>
   <!-- End Footer -->
 
-<script src="script.js"></script>
+  <script src="script.js"></script>
 
 </body>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
